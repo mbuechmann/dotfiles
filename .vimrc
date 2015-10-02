@@ -23,7 +23,10 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'bling/vim-airline'
- 
+Bundle 'ntpeters/vim-better-whitespace'
+Bundle 'majutsushi/tagbar'
+Bundle 'qpkorr/vim-bufkill'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
