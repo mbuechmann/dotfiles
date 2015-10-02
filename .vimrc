@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
- 
+
 Bundle 'gmarik/Vundle.vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle "marijnh/tern_for_vim"
@@ -39,7 +39,7 @@ set t_Co=256
 syntax on
 set background=dark
 colorscheme distinguished
- 
+
 set number
 
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
