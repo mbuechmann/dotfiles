@@ -35,8 +35,6 @@ let g:vim_markdown_folding_disabled=1
 " Custom keybindings
 nmap <Tab><Tab> :NERDTreeTabsToggle<CR>
 nmap <Ctrl-p> :CtrlP .
-nmap <Alt-Right> :bnext
-nmap <Alt-Left> :bprevious
 
 set t_Co=256
 syntax on
