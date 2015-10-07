@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Bundle 'gmarik/Vundle.vim'
-Bundle 'Valloric/YouCompleteMe'
+Bundle 'Shougo/neocomplete.vim'
 Bundle "marijnh/tern_for_vim"
 Bundle 'Raimondi/delimitMate'
 Bundle 'jelera/vim-javascript-syntax'
