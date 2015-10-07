@@ -27,6 +27,9 @@ Bundle 'bling/vim-airline'
 Bundle 'ntpeters/vim-better-whitespace'
 Bundle 'majutsushi/tagbar'
 Bundle 'qpkorr/vim-bufkill'
+Bundle 'yosssi/vim-ace'
+Bundle 'fatih/vim-go'
+Bundle 'scrooloose/syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
