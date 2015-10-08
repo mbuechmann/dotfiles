@@ -1,6 +1,3 @@
-[user]
-	name = Malte Büchmann
-	email = malte.buechmann@wlw.de
 [core]
 	editor = vim
 	excludesfile = /Users/buechmann/.gitignore_global
@@ -37,3 +34,5 @@
 	trustExitCode = true
 [color "diff"]
 	whitespace = red reverse
+[include]
+	path = ~/.gitconfig.local
