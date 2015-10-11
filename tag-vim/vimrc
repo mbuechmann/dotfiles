@@ -11,6 +11,7 @@ Bundle "marijnh/tern_for_vim"
 Bundle 'Raimondi/delimitMate'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'tpope/vim-surround'
 Bundle 'ervandew/ag'
@@ -34,7 +35,9 @@ Bundle 'scrooloose/syntastic'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_folding_disabled=2
+
+let g:jsx_ext_required = 0 " Enable jsx highlighting in js files
 
 " Custom keybindings
 nmap <Tab><Tab> :NERDTreeTabsToggle<CR>
