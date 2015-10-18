@@ -1,39 +1,39 @@
 [core]
-	editor = vim
-	excludesfile = /Users/buechmann/.gitignore_global
-	autocrlf = input
-	safecrlf = warn
+  editor = vim
+  excludesfile = /Users/buechmann/.gitignore_global
+  autocrlf = input
+  safecrlf = warn
 [merge]
-	tool = vimdiff
+  tool = vimdiff
 [alias]
-	st = status
-	sm = merge --squash
-	br = branch
-	ci = commit
-	co = checkout
-	pr = pull --rebase
-	lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
-	lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
-	d = diff
-	dc = diff --cached
+  st = status
+  sm = merge --squash
+  br = branch
+  ci = commit
+  co = checkout
+  pr = pull --rebase
+lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+  lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+  d = diff
+  dc = diff --cached
   ds = diff --stat
-	sm = submodule
+  sm = submodule
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
 [push]
-	default = current
+  default = current
 [mergetool]
-	keepBackup = false
+  keepBackup = false
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [color "diff"]
-	whitespace = red reverse
+  whitespace = red reverse
 [include]
-	path = ~/.gitconfig.local
+  path = ~/.gitconfig.local
