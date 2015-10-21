@@ -51,6 +51,7 @@ colorscheme jellybeans
 
 set number
 set list
+set mouse=a " Enable mouse selection in terminal
 
 let g:neocomplete#enable_at_startup = 1
 
