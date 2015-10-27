@@ -52,6 +52,7 @@ colorscheme jellybeans
 set number
 set list
 set mouse=a " Enable mouse selection in terminal
+set hidden " leave unsaved buffers
 
 let g:neocomplete#enable_at_startup = 1
 
