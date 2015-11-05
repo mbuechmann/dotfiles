@@ -31,6 +31,10 @@ Bundle 'yosssi/vim-ace'
 Bundle 'fatih/vim-go'
 Bundle 'tpope/vim-rails'
 Bundle 'Yggdroot/indentLine'
+" Open files in a given line
+Bundle 'bogado/file-line'
+" Add highlighting and fix indentation for ansible yml files
+Bundle 'chase/vim-ansible-yaml'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
