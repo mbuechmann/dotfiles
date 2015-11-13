@@ -35,6 +35,9 @@ Bundle 'Yggdroot/indentLine'
 Bundle 'bogado/file-line'
 " Add highlighting and fix indentation for ansible yml files
 Bundle 'chase/vim-ansible-yaml'
+" Lua file type plugin
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-lua-ftplugin'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
