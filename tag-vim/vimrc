@@ -6,9 +6,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Bundle 'gmarik/Vundle.vim'
+" Next generation completion framework after neocomplcache
 Bundle 'Shougo/neocomplete.vim'
+" Tern-based JavaScript editing support
 Bundle "marijnh/tern_for_vim"
+" provides insert mode auto-completion for quotes, parens, brackets, etc.
 Bundle 'Raimondi/delimitMate'
+" Enhanced JavaScript Syntax for Vim
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
