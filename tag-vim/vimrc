@@ -33,7 +33,9 @@ Bundle 'majutsushi/tagbar'
 Bundle 'qpkorr/vim-bufkill'
 Bundle 'yosssi/vim-ace'
 Bundle 'fatih/vim-go'
+" Ruby on Rails power tools
 Bundle 'tpope/vim-rails'
+" display the indention levels with thin vertical lines
 Bundle 'Yggdroot/indentLine'
 " Open files in a given line
 Bundle 'bogado/file-line'
