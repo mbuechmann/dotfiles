@@ -20,12 +20,19 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 " A Vim plugin for visually displaying indent levels in code
 Bundle 'nathanaelkane/vim-indent-guides'
+" quoting/parenthesizing made simple
 Bundle 'tpope/vim-surround'
+" Vim plugin for the_silver_searcher
 Bundle 'rking/ag.vim'
+" Slim syntax highlighting
 Bundle 'slim-template/vim-slim.git'
+" Markdown Vim Mode
 Bundle 'plasticboy/vim-markdown'
+" wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 Bundle 'tpope/vim-endwise.git'
+" A Vim plugin which shows a git diff in the gutter (sign column) and stages/reverts hunks.
 Bundle 'airblade/vim-gitgutter'
+" A Git wrapper so awesome, it should be illegal
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
