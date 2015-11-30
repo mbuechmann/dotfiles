@@ -34,7 +34,9 @@ Bundle 'tpope/vim-endwise.git'
 Bundle 'airblade/vim-gitgutter'
 " A Git wrapper so awesome, it should be illegal
 Bundle 'tpope/vim-fugitive'
-Bundle 'kien/ctrlp.vim'
+" Fuzzy file, buffer, mru, tag, etc finder
+Bundle 'ctrlpvim/ctrlp.vim'
+" explore your filesystem and to open files and directories
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'bling/vim-airline'
