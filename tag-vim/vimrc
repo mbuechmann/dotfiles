@@ -38,11 +38,17 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'ctrlpvim/ctrlp.vim'
 " explore your filesystem and to open files and directories
 Bundle 'scrooloose/nerdtree'
+" NERDTree and tabs together in Vim, painlessly
 Bundle 'jistr/vim-nerdtree-tabs'
+" lean & mean status/tabline for vim that's light as air
 Bundle 'bling/vim-airline'
+" highlight all trailing whitespaces
 Bundle 'ntpeters/vim-better-whitespace'
+" class outline viewer for Vim
 Bundle 'majutsushi/tagbar'
+" unload, delete or wipe a buffer without closing the window or split
 Bundle 'qpkorr/vim-bufkill'
+" Vim syntax highlighting for Ace templates
 Bundle 'yosssi/vim-ace'
 " Go development plugin for Vim
 Bundle 'fatih/vim-go'
