@@ -75,6 +75,7 @@ let g:jsx_ext_required = 0 " Enable jsx highlighting in js files
 nmap <Tab><Tab> :NERDTreeTabsToggle<CR>
 nmap <Ctrl-p> :CtrlP .
 nmap <F8> :TagbarToggle<CR>
+nmap <C-\> :NERDTreeFind<CR>
 
 set t_Co=256
 syntax on
