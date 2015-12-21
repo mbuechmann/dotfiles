@@ -91,5 +91,7 @@ let g:neocomplete#enable_at_startup = 1
 
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
+
+let g:NERDTreeWinSize=40
 let g:nerdtree_tabs_open_on_console_startup = 1
 let g:nerdtree_tabs_smart_startup_focus = 2
