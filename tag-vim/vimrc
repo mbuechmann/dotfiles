@@ -95,3 +95,10 @@ let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
 let g:NERDTreeWinSize=40
 let g:nerdtree_tabs_open_on_console_startup = 1
 let g:nerdtree_tabs_smart_startup_focus = 2
+
+" autocomplete for love2d
+function SetLovePrefs()
+  setlocal dictionary-=~/.vim/love-dictionary/love.dict dictionary+=~/.vim/love-dictionary/love.dict
+  setlocal iskeyword+=.
+endfunction
+autocmd FileType lua call SetLovePrefs()
