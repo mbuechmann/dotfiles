@@ -63,6 +63,8 @@ Bundle 'chase/vim-ansible-yaml'
 " Lua file type plugin
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-lua-ftplugin'
+" comment stuff out
+Bundle 'tpope/vim-commentary'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
