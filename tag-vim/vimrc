@@ -65,6 +65,8 @@ Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-lua-ftplugin'
 " comment stuff out
 Bundle 'tpope/vim-commentary'
+" emmet for vim
+Bundle 'mattn/emmet-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
