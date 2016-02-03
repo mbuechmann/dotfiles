@@ -25,7 +25,7 @@ Bundle 'tpope/vim-surround'
 " Vim plugin for the_silver_searcher
 Bundle 'rking/ag.vim'
 " Slim syntax highlighting
-Bundle 'slim-template/vim-slim.git'
+Bundle 'onemanstartup/vim-slim'
 " Markdown Vim Mode
 Bundle 'plasticboy/vim-markdown'
 " wisely add "end" in ruby, endfunction/endif/more in vim script, etc
