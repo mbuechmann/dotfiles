@@ -3,6 +3,8 @@ set softtabstop=2 expandtab shiftwidth=2 smarttab
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
+set backspace=indent,eol,start " fix backspaces in iterm"
+
 call vundle#begin()
 
 Bundle 'gmarik/Vundle.vim'
