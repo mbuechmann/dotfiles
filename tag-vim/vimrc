@@ -40,6 +40,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'ctrlpvim/ctrlp.vim'
 " explore your filesystem and to open files and directories
 Bundle 'scrooloose/nerdtree'
+" A plugin of NERDTree showing git status
+Bundle 'Xuyuanp/nerdtree-git-plugin'
 " NERDTree and tabs together in Vim, painlessly
 Bundle 'jistr/vim-nerdtree-tabs'
 " lean & mean status/tabline for vim that's light as air
@@ -108,3 +110,16 @@ function SetLovePrefs()
   setlocal iskeyword+=.
 endfunction
 autocmd FileType lua call SetLovePrefs()
+
+" NERDTreeIndicator
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ "Unknown"   : "?"
+    \ }
