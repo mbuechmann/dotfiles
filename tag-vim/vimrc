@@ -56,6 +56,8 @@ Bundle 'qpkorr/vim-bufkill'
 Bundle 'yosssi/vim-ace'
 " Go development plugin for Vim
 Bundle 'fatih/vim-go'
+" Go Explorer is Vim plugin for exploring Go code
+Bundle 'garyburd/go-explorer'
 " Ruby on Rails power tools
 Bundle 'tpope/vim-rails'
 " Display the indention levels with thin vertical lines
