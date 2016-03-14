@@ -6,6 +6,7 @@
 [merge]
   tool = vimdiff
 [alias]
+  b = checkout -b
   st = status
   sm = merge --squash
   br = branch
