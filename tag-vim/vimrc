@@ -73,6 +73,8 @@ Bundle 'xolox/vim-lua-ftplugin'
 Bundle 'tpope/vim-commentary'
 " emmet for vim
 Bundle 'mattn/emmet-vim'
+" Vim syntax file & snippets for Docker's Dockerfile
+Bundle 'ekalinin/Dockerfile.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
