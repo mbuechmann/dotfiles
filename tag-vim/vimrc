@@ -104,7 +104,7 @@ nmap <C-\> :NERDTreeFind<CR>
 set t_Co=256
 syntax on
 set background=dark
-colorscheme jellybeans
+colorscheme gruvbox
 
 set number  " show linenumbers
 set list    " show whitespaces
