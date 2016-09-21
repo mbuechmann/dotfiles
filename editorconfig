@@ -15,6 +15,16 @@ charset = utf-8
 indent_style = space
 indent_size = 2
 
+; Slim
+[*.slim]
+indent_style = space
+indent_size = 2
+
+; SCSS
+[*.scss]
+indent_style = space
+indent_size = 2
+
 ; Golang
 [*.go]
 indent_style = tab
