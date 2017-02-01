@@ -54,3 +54,8 @@ indent_size = 2
 [*.feature]
 indent_style = space
 indent_size = 2
+
+; Dockerfile
+[Dockerfile*]
+indent_style = space
+indent_size = 2
