@@ -8,6 +8,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Bundle 'gmarik/Vundle.vim'
+" EditorConfig plugin for Vim
+Bundle 'editorconfig/editorconfig-vim'
 " Next generation completion framework after neocomplcache
 Bundle 'Shougo/neocomplete.vim'
 " Tern-based JavaScript editing support
