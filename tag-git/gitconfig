@@ -1,5 +1,5 @@
 [core]
-  editor = vim
+  editor = nvim
   excludesfile = /Users/buechmann/.gitignore_global
   autocrlf = input
   safecrlf = warn
