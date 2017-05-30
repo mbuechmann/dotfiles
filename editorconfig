@@ -65,6 +65,10 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+; Jade
+indent_style = space
+indent_size = 2
+
 ; Python
 [*.py]
 indent_style = space
