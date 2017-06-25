@@ -25,6 +25,11 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+; Ace
+[*.ace]
+indent_style = space
+indent_size = 2
+
 ; ERB
 [*.erb]
 indent_style = space
@@ -73,4 +78,3 @@ indent_size = 2
 [*.py]
 indent_style = space
 indent_size = 4
-
