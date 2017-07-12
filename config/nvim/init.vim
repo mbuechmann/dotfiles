@@ -9,6 +9,7 @@ let g:python3_host_prog = '/usr/local/bin/python3'
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
 call plug#begin('~/.vim/plugged')
 
+Plug 'https://github.com/nanotech/jellybeans.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go', { 'tag': '*' }
@@ -27,3 +28,5 @@ let g:deoplete#enable_at_startup = 1
 
 nmap <Tab><Tab> :NERDTreeToggle<CR>
 nmap <Ctrl-t> :FZF
+
+colorscheme jellybeans
