@@ -1,5 +1,7 @@
 " Display line numbers
 set number
+" Hightlight current line
+set cursorline
 " config for fzf
 set rtp+=/usr/local/opt/fzf
 
