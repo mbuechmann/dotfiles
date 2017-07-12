@@ -36,3 +36,6 @@
   whitespace = red reverse
 [include]
   path = ~/.gitconfig.local
+[user]
+	email = malte.buechmann@gmail.com
+	name = mbuechmann
