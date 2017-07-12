@@ -9,6 +9,7 @@ let g:python3_host_prog = '/usr/local/bin/python3'
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
 call plug#begin('~/.vim/plugged')
 
+Plug 'https://github.com/yosssi/vim-ace'
 Plug 'https://github.com/nanotech/jellybeans.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
