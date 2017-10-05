@@ -21,6 +21,7 @@
   d = diff
   dc = diff --cached
   ds = diff --stat
+  dcs = diff --cached --stat
   sm = submodule
 [color]
   branch = auto
