@@ -4,6 +4,8 @@ set number
 set cursorline
 " config for fzf
 set rtp+=/usr/local/opt/fzf
+" enable mouse support for cursor
+set mouse=a
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
@@ -23,6 +25,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'mhartington/nvim-typescript'
+" Search in project
+Plug 'mileszs/ack.vim'
 " Typescript syntax files for Vim
 Plug 'leafgarland/typescript-vim'
 " NeoVim/Vim plugin performing project-wide async search and replace, similar to SublimeText, Atom et al.
@@ -49,7 +53,14 @@ let g:deoplete#enable_at_startup = 1
 " Automatically displays all buffers when there's only one tab open
 let g:airline#extensions#tabline#enabled = 1
 
+" Use ag for search in project
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 nmap <Tab><Tab> :NERDTreeToggle<CR><C-w>=
-nmap <Ctrl-t> :FZF
+nmap <C-t> :FZF<CR>
+nmap <S-Right> :bnext<CR>
+nmap <S-Left> :bprevious<CR>
 
 colorscheme solarized
