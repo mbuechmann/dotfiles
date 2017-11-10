@@ -12,7 +12,7 @@
   br = branch
   ci = commit
   co = checkout
-  pp = pull --prune
+  pp = pull --prune --progress
   pr = pull --rebase
   pfwl = push --force-with-lease
   l = log
