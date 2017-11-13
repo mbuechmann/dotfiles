@@ -75,6 +75,11 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+; TypeScript
+[*.ts]
+indent_style = space
+indent_size = 2
+
 ; Jade
 [*.jade]
 indent_style = space
