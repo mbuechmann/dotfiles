@@ -1,28 +1,28 @@
 [core]
+  autocrlf = input
   editor = nvim
   excludesfile = /Users/buechmann/.gitignore_global
-  autocrlf = input
   safecrlf = warn
 [merge]
   tool = vimdiff
 [alias]
   b = checkout -b
-  st = status
-  sm = merge --squash
   br = branch
   ci = commit
   co = checkout
-  pp = pull --prune --progress --all
-  pr = pull --rebase
-  pfwl = push --force-with-lease
+  d = diff --word-diff=color
+  dc = diff --cached --word-diff=color
+  dcs = diff --cached --stat
+  ds = diff --stat
   l = log
   lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
   lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
-  d = diff --word-diff=color
-  dc = diff --cached --word-diff=color
-  ds = diff --stat
-  dcs = diff --cached --stat
+  pfwl = push --force-with-lease
+  pp = pull --prune --progress --all
+  pr = pull --rebase
+  sm = merge --squash
   sm = submodule
+  st = status
 [color]
   branch = auto
   diff = auto
