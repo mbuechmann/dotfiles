@@ -43,7 +43,8 @@ Plug 'zchee/deoplete-go', { 'do': ':UpdateRemotePlugins' }
 Plug 'editorconfig/editorconfig-vim'
 " A Vim plugin for visually displaying indent levels in code
 Plug 'nathanaelkane/vim-indent-guides'
-
+" Displays tags in a window, ordered by scope
+Plug 'majutsushi/tagbar'
 " Initialize plugin system
 call plug#end()
 
