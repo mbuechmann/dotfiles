@@ -10,7 +10,7 @@ end
 set -x GO11MODULE on
 set -x GOPATH ~/go
 
-set -x PATH $PATH:$GOPATH/bin
+set -x PATH $GOPATH/bin $PATH
 
 alias c="code ."
 alias f="fortune -s | cowsay"
