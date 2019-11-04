@@ -3,8 +3,8 @@ function fish_greeting
 end
 funcsave fish_greeting
 
-if test -e ./config.local.fish
-    source ./config.local.fish
+if test -e ~/.config/fish/config.local.fish
+    source ~/.config/fish/config.local.fish
 end
 
 set -x GO11MODULE on
