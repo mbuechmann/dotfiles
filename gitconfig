@@ -1,6 +1,6 @@
 [core]
   autocrlf = input
-  editor = nvim
+  editor = vim
   excludesfile = /Users/buechmann/.gitignore_global
   safecrlf = warn
 [merge]
