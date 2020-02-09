@@ -2,10 +2,10 @@ function fish_greeting
 	fortune -s | cowsay | lolcat
 end
 
-if test -e ./var.fish
-	source ./var.fish
+if test -e ~/.config/fish/var.fish
+	source ~/.config/fish/var.fish
 end
 
-if test -e ./alias.fish
-	source ./alias.fish
+if test -e ~/.config/fish/alias.fish
+	source ~/.config/fish/alias.fish
 end
