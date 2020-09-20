@@ -37,3 +37,5 @@
   whitespace = red reverse
 [include]
   path = ~/.gitconfig.local
+[url "git@gitlab.com:"]
+  insteadOf = https://gitlab.com/
