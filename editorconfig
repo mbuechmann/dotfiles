@@ -70,6 +70,11 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+; Lua
+[*.lua]
+indent_style = tab
+indent_size = 4
+
 ; Javascript
 [*.js]
 indent_style = space
