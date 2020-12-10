@@ -103,3 +103,8 @@ indent_size = 4
 ; Makefile
 [{Makefile,*.mk}]
 indent_style = tab
+
+; Terraform
+[*.tf]
+indent_style = space
+indent_size = 2
