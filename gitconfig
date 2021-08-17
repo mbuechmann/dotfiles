@@ -10,6 +10,7 @@
   b = checkout -b
   br = branch
   ci = commit
+  can = commit --amend --no-edit
   co = checkout
   d = diff
   dc = diff --cached
