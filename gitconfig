@@ -51,3 +51,5 @@
   diffFilter = delta --color-only
 [url "https://gitlab-ci-token:@gitlab.com/"]
 	insteadOf = https://gitlab.com/
+[init]
+	defaultBranch = main
