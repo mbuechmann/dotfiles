@@ -17,8 +17,8 @@
   dcs = diff --cached --stat
   ds = diff --stat
   l = log
-  lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(dim blue)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
-  lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(dim blue)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+  lg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(bold blue)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+  lga = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(bold blue)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
   pfwl = push --force-with-lease
   pp = pull --prune --progress --all --tags
   pr = pull --rebase
