@@ -22,6 +22,7 @@
   pfwl = push --force-with-lease
   pp = pull --prune --progress --all --tags
   pr = pull --rebase
+  pu = push --set-upstream
   sm = merge --squash
   sm = submodule
   st = status
