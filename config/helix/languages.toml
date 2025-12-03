@@ -1,0 +1,30 @@
+[[language]]
+name = "go"
+scope = "source.go"
+file-types = ["go", "go.sum", "go.mod"]
+roots = ["go.mod", "go.sum"]
+language-servers = ["scls", "gopls"]
+auto-format = true
+block-comment-tokens = { start = "/*", end = "*/" }
+formatter = { command = "goimports" }
+
+[language-server.gopls.config]
+"ui.completion.usePlaceholders" = true
+"build.buildFlags" = ["-tags=unit,integration"]
+"hints"= {"rangeVariableTypes"= true, "parameterNames"=true, "functionTypeParameters"=true, "constantValues"=true, "compositeLiteralTypes"=true,"compositeLiteralFields"=true,"assignVariableTypes"=true, "references" = true}
+"ui.diagnostic.staticcheck" = true
+
+[[language]]
+name = "hcl"
+language-servers = [ "terraform-ls" ]
+language-id = "terraform"
+
+[[language]]
+name = "tfvars"
+language-servers = [ "terraform-ls" ]
+language-id = "terraform-vars"
+
+[language-server.terraform-ls]
+command = "terraform-ls"
+args = ["serve"]
+# config.indexing.ignorePaths = ["ignore.hcl"]
