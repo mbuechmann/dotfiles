@@ -28,3 +28,8 @@ language-id = "terraform-vars"
 command = "terraform-ls"
 args = ["serve"]
 # config.indexing.ignorePaths = ["ignore.hcl"]
+
+[[langauge]]
+name = "rb"
+language-servers = [ "ruby-lsp" ]
+language-id = "ruby"
